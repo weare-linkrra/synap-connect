@@ -1,0 +1,50 @@
+{
+  "name": "synap-connect",
+  "version": "0.1.0",
+  "description": "Connect Synap (Linkrra's OpenAI-compatible model API, https://synap402.com) as a model provider inside popular AI coding tools: OpenAI Codex CLI, OpenCode, Cursor, and Claude Code.",
+  "type": "module",
+  "bin": {
+    "synap-connect": "bin/synap-connect.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "synap",
+    "linkrra",
+    "llm",
+    "inference",
+    "openai-compatible",
+    "codex",
+    "codex-cli",
+    "opencode",
+    "cursor",
+    "claude-code",
+    "cli",
+    "model-provider",
+    "byok"
+  ],
+  "author": "Linkrra <weare@linkrra.com> (https://synap402.com)",
+  "license": "MIT",
+  "homepage": "https://synap402.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weare-linkrra/synap-connect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weare-linkrra/synap-connect/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.3.1"
+  }
+}
